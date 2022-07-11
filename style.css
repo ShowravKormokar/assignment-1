@@ -1,11 +1,13 @@
 nav {
     display: flex;
     background-image: linear-gradient(rgb(108, 96, 96), rgb(232, 213, 103));
-    padding: 0.01%;
+    padding: 0.002%;
+
 }
 
 span {
-    font-size: 80px;
+    font-size: 55px;
+    padding: 0;
     margin-left: 80px;
 }
 
@@ -31,7 +33,9 @@ p {
     background-image: url(/donate-today/images/donation5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 780px;
+    margin-top: 0%;
+    width: 100%;
+    height: 820px;
     text-align: center;
 }
 
@@ -107,6 +111,7 @@ a {
     padding: 30px 30px 30px;
     border-radius: 10px;
     background-color: #D5F0F1;
+    box-shadow: 4px 2px 5px gold;
 
 }
 
@@ -115,7 +120,7 @@ a {
     padding: 30px 30px 30px;
     border-radius: 10px;
     background-color: #F4E7E7;
-
+    box-shadow: 4px 2px 5px gold;
 }
 
 .education {
@@ -123,6 +128,7 @@ a {
     padding: 30px 30px 30px;
     border-radius: 10px;
     background-color: #FEF3D6;
+    box-shadow: 4px 2px 5px gold;
 }
 
 .img-text {
@@ -138,7 +144,7 @@ a {
 .text {
     width: 50%;
     text-align: left;
-    padding: 20px 20px 20px 20px;
+    padding: 10px;
 }
 
 footer {
@@ -152,7 +158,7 @@ ul {
     list-style-type: none;
     display: flex;
     padding-left: 45%;
-    padding-top: 4.5%;
+    padding-top: 3.5%;
 
 }
 
